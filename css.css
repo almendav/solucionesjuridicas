@@ -1,0 +1,289 @@
+body{
+	background-image:url("img/tarzan.jpg")
+}
+video{
+		margin-top:20px;
+		
+	}
+
+.contFoot{
+	background-color: #676866;
+	margin-top:20px;
+	margin-bottom: 25px;
+}
+#textoDes{
+	font-family: "Malgun Gothic";
+}
+#imagLog{
+	margin-top:20px;
+}
+
+/*CSS derechoMercantil*/
+
+.titAre{
+	color:white;
+	font-family: "Baskerville Old ";
+	font-size: 50px;
+	margin-top:45px;
+}
+.contTit{
+	background-color: #AEB1AE;
+	height: 150px;
+	opacity: 0.6; 
+}
+.centerTot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+#contDerMer{
+	background-image: url("img/dereMercan.jpg");
+	background-repeat: no-repeat;
+	margin:auto;
+	height: 800px;
+    width: 100%;
+ }
+ 
+
+.contDesDem{
+	background-color: #AEB1AE;
+	height: 450px;
+	margin-top: 20px;
+}
+.tit{
+	color:white;
+	font-family: "Baskerville Old ";
+}
+.DesAre{
+	color:white;
+	font-family: "Baskerville Old ";
+	font-size: 20px;
+}
+
+/*End CSS derechoMercantil*/
+
+/*CSS derechoCivil*/
+#contDerCiv{
+	background-image: url("img/dereCivil.jpg");
+	background-repeat: no-repeat;
+	margin:auto;
+	height: 800px;
+    width: 100%;
+}
+/*End CSS derechoCivil*/
+
+/*CSS derechoPenal*/
+#contDerPena{
+	background-image: url("img/derePenal.jpg");
+	background-repeat: no-repeat;
+	margin:auto;
+	height: 800px;
+    width: 100%;
+}
+#textLong{
+	color:white;
+	font-family: "Baskerville Old ";
+	font-size: 13px;
+}
+/*End CSS derechoPenal*/
+
+/*CSS derechoAdministrativo*/
+	#contDerAdmi{
+	background-image: url("img/dereAdmi.jpg");
+	background-repeat: no-repeat;
+	margin:auto;
+	height: 800px;
+    width: 100%;
+	}
+	#textTitLar{
+	color:white;
+	font-family: "Baskerville Old ";
+	font-size: 40px;
+	margin-top: 50px;
+	}
+	.DesAreAd{
+		color:white;
+		font-family: "Baskerville Old ";
+		font-size: 20px;
+	}
+/*End CSS derechoAdministrativo*/
+	#contDerLabo{
+	background-image: url("img/dereLabo.jpg");
+	background-repeat: no-repeat;
+	margin:auto;
+	height: 800px;
+    width: 100%;
+	}
+/*CSS derechoLaroal*/	
+
+
+/*End CSS derechoLaroal*/	
+
+
+/****************RESPONSIVE**********************************/
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+
+	#contLog{
+		margin:25px 25px 25px 25px;
+	}
+	.textEnl{
+		font-size:30px;
+	}
+	
+	
+	/*CSS derechoMercantil*/
+	
+	.titAre{
+	color:white;
+	font-family: "Baskerville Old ";
+	font-size: 60px;
+	margin-top:45px;
+	}
+	.contFoot{
+	background-color: #676866;
+	margin-top:20px;
+	margin-bottom: 25px;
+	}
+	.tit{
+		color:white;
+		font-family: "Baskerville Old ";
+		font-size: 50px;
+	}
+	.DesAre{
+		color:white;
+		font-family: "Baskerville Old ";
+		font-size: 30px;
+	}
+	.contDesDem{
+		background-color: #AEB1AE;
+		height: 650px;
+		margin-top: 20px;
+	}/*End CSS derechoMercantil*/	
+	
+	
+	/*CSS derechoPenal*/	
+	#textLong{
+	color:white;
+	font-family: "Baskerville Old ";
+	font-size: 17px;
+	}
+	video{
+		width:730px;
+	}
+	#textTitLar{
+	color:white;
+	font-family: "Baskerville Old ";
+	font-size: 55px;
+	margin-top: 18px;
+	}
+	
+	/*End CSS derechoPenal*/
+	
+	/*End CSS derechoAdministrativo*/
+	.DesAreAd{
+		color:white;
+		font-family: "Baskerville Old ";
+		font-size: 28px;
+	}
+	
+	/*End CSS derechoAdministrativo*/
+		
+}/*End Medium devices (landscape tablets, 768px and up) */
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	
+	.textEnl{
+		font-size:32px;
+	}
+	.titAre{
+	color:white;
+	font-family: "Baskerville Old ";
+	font-size: 80px;
+	margin-top:35px;
+	}
+	#textLong{
+	color:white;
+	font-family: "Baskerville Old ";
+	font-size: 20px;
+	}
+	#textTitLar{
+	color:white;
+	font-family: "Baskerville Old ";
+	font-size: 60px;
+	margin-top: 45px;
+	}
+	/*End CSS derechoPenal*/	
+	
+}/* End Large devices (laptops/desktops, 992px and up) */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	.titAre{
+	color:white;
+	font-family: "Baskerville Old ";
+	font-size: 100px;
+	margin-top:20px;
+	}
+	.contDesDem{
+		background-color: #AEB1AE;
+		height: 450px;
+		margin-top: 20px;
+	}
+	.DesAre{
+		color:white;
+		font-family: "Baskerville Old ";
+		font-size: 21px;
+	}
+	video{
+		width:1000px;
+	}
+	
+}/* End Extra large devices (large laptops and desktops, 1200px and up) */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	
+	.titAre{
+		color:white;
+		font-family: "Baskerville Old ";
+		font-size: 40px;
+		margin-top:30px;
+	}
+	.contDesDem{
+		background-color: #AEB1AE;
+		height: 600px;
+		margin-top: 20px;
+	}
+	#textLong{
+		color:white;
+		font-family: "Baskerville Old ";
+		font-size: 11px;
+	}
+	#textTitLar{
+		color:white;
+		font-family: "Baskerville Old ";
+		font-size: 40px;
+		margin-top: 30px;
+	}
+	.DesAreAd{
+		color:white;
+		font-family: "Baskerville Old ";
+		font-size: 16px;
+	}
+	
+	
+}/* End Extra small devices (phones, 600px and down) */
+
